@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+body{
+	background:#FFF;
+	}
+	h1{text-align:center;}
+	.container{
+		width:960px;
+	    height:450px;
+	    margin:60px auto; position:relative;
+		}
+	img{ width:300px; height:200px;
+		 padding:10px 10px 15px; background:#FFF;
+		 border:1px solid  #333;
+		 position:absolute;
+		/* top:50px; left:200px;*/
+		 /*-webkit-transform:rotate(20deg); -moz-transform:rotate(20deg);
+		 transform:(20deg);*/
+		/* 旋转时间，旋转速度*/
+		 -webkit-transition:2s;
+		 -moz-transition:2s;
+		 transform:2s;
+		 z-index:1;
+	}
+	img:hover{
+	   /*旋转变为0*/
+		-webkit-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		transform:rotate(deg0);
+		/*放大倍数*/
+	    -webkit-transform:scale(1.2);
+		-moz-transform:scale(1.2);
+		transform:scale(1.2);
+		box-shadow:10px 10px 15px #ccc;
+		/*上浮倍数*/
+		z-index:2;
+		}
+	.pic1{
+		left:300px;
+		top:0px;
+		/*旋转度数*/
+		-webkit-transform: rotate(-25deg);
+		-moz-transform: rotate(-25deg);
+		transform:rotate(-25deg);
+	}
+    .pic2{
+		left:500px;
+		top:0px;
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		transform:rotate(20deg);
+	}
+	.pic3{
+		left:0px;
+		top:400px;
+		-webkit-transform: rotate(-35deg);
+		-moz-transform: rotate(-35deg);
+		transform:rotate(-35deg);
+	}
+	.pic4{
+		left:600px;
+		top:350px;
+		-webkit-transform: rotate(30deg);
+		-moz-transform: rotate(30deg);
+		transform:rotate(30deg);
+	}
+	.pic5{
+		left:400px;
+		top:0px;
+		-webkit-transform: rotate(-5deg);
+		-moz-transform: rotate(-5deg);
+		transform:rotate(-5deg);
+	}
+	.pic6{
+		left:500px;
+		top:250px;
+		-webkit-transform: rotate(25deg);
+		-moz-transform: rotate(25deg);
+		transform:rotate(25deg);
+	}
+	.pic7{
+		left:800px;
+		top:300px;
+		-webkit-transform: rotate(-5deg);
+		-moz-transform: rotate(-5deg);
+		transform:rotate(-5deg);
+	}
+	.pic8{
+		left:400px;
+		top:450px;
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		transform:rotate(90deg);
+	}
+	.pic9{
+		left:650px;
+		top:0px;
+		-webkit-transform: rotate(30deg);
+		-moz-transform: rotate(30deg);
+		transform:rotate(30deg);
+	}
+	.pic10{
+		left:700px;
+		top:0px;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		transform:rotate(45deg);
+	}
+	.pic11{
+		left:0px;
+		top:500px;
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		transform:rotate(-5deg);
+	}
+	.pic12{
+		left:100px;
+		top:0px;
+		-webkit-transform: rotate(-5deg);
+		-moz-transform: rotate(-5deg);
+		transform:rotate(-5deg);
+	}
+
+
+</style>
+
+</head>
+
+<body>
+	<h1>照片墙制作</h1>
+    <div class="container">
+    	<img  class="pic1" src="img/1.png" /> 
+        <img class="pic2" src="img/2.png" /> 
+        <img  class="pic3"src="img/3.png" /> 
+        <img class="pic4" src="img/4.png" /> 
+        <img  class="pic5"src="img/5.png" /> 
+        <img  class="pic6"src="img/6.png" /> 
+        <img class="pic7" src="img/7.png" /> 
+        <img  class="pic8"src="img/8.png" />
+        <img  class="pic9"src="img/9.png" /> 
+        <img  class="pic10"src="img/10.png" />
+        <img  class="pic11"src="img/11.png" />
+        <img class="pic12" src="img/12.png" />
+    </div>
+
+
+</body>
+</html>
